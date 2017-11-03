@@ -1,16 +1,16 @@
 PODS:
-  - Extra (0.1.0)
+  - Extra2 (0.1.0)
 
 DEPENDENCIES:
-  - Extra (from `../`)
+  - Extra2 (from `../`)
 
 EXTERNAL SOURCES:
-  Extra:
+  Extra2:
     :path: ../
 
 SPEC CHECKSUMS:
-  Extra: 7dd75db9efd6ad6eabf73d7dcde3de69701ea662
+  Extra2: 9c02377745bb3833f289f43fce5cd7221f1355ee
 
-PODFILE CHECKSUM: 487a047f2240ef65aa2718b581cd4f2a8b720dfd
+PODFILE CHECKSUM: 730b757f3f4dc2db040ce795b73793a4ae251239
 
 COCOAPODS: 1.3.1

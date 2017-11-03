@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Extra2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Extra_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>675998537B6B0CBDA51E28EB821025CF</key>
+		<key>3A3823A22C5259B901D4248AB67FA1A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78CEE82E8ED3E5373466EEA451AB1A78</key>
+		<key>6955A1DAA3EFE84594F1E12FBA4352F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

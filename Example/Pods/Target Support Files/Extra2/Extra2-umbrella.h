@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ExtraVersionNumber;
-FOUNDATION_EXPORT const unsigned char ExtraVersionString[];
+FOUNDATION_EXPORT double Extra2VersionNumber;
+FOUNDATION_EXPORT const unsigned char Extra2VersionString[];
 

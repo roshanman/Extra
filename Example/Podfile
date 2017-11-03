@@ -1,5 +1,5 @@
 use_frameworks!
 
 target 'Extra_Example' do
-  pod 'Extra', :path => '../'
+  pod 'Extra2', :path => '../'
 end
