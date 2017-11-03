@@ -56,7 +56,7 @@ class ViewController2: UIViewController {
 }
 ```
 
-![""](https://github.com/roshanman/Extra/blob/master/ScreenShots/ScreenShot.gif)
+![""](https://github.com/roshanman/Extra/blob/master/ScreenShot.gif)
 
 ## Requirements
 
