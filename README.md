@@ -68,7 +68,7 @@ class ViewController2: UIViewController {
 ### CocoaPods
 
 ```ruby
-pod 'Extra'
+pod 'Extra2'
 ```
 
 ### Carthage
