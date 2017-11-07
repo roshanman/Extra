@@ -2,7 +2,7 @@
 [![CI Status](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![CI Status](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org/)
 [![Version](https://img.shields.io/cocoapods/v/Extra2.svg?style=flat)](http://cocoapods.org/pods/Extra)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-unCompatible-flat.svg)](https://github.com/Carthage/Carthage)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Extra.svg?style=flat)](http://cocoapods.org/pods/Extra)
 [![Platform](https://img.shields.io/cocoapods/p/Extra.svg?style=flat)](http://cocoapods.org/pods/Extra)
 
@@ -52,6 +52,21 @@ class ViewController2: UIViewController {
         progressView.progressTintColor = extra.get(key: "progressTintColor")
 
         button.setTitle(extra.get(key: "button"), for: .normal)
+    }
+}
+```
+
+## AssociatedObject
+```swift
+extension UIViewController {
+    public var example: Int {
+        get {
+            return extra.get(key: "example") ?? 0
+        }
+        
+        set {
+            extra.put(key: "example", value: newValue)
+        }
     }
 }
 ```
